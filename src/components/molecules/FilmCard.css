@@ -1,0 +1,31 @@
+.film-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  border-radius: var(--radius-card);
+  background: var(--color-cloud);
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.film-card:hover {
+  transform: translateY(-4px);
+}
+
+.film-card__image {
+  padding: 0.6rem 0.6rem 0;
+}
+
+.film-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.8rem 1rem 1rem;
+}
+
+.film-card__badges {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 0.2rem;
+}

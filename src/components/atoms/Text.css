@@ -1,0 +1,19 @@
+.text {
+  margin: 0;
+}
+
+.text--muted {
+  color: var(--color-ink-soft);
+  font-size: 0.92rem;
+}
+
+.text--light {
+  color: var(--color-sky);
+}
+
+.text--clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

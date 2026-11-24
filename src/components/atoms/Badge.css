@@ -1,0 +1,17 @@
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.badge--default {
+  background: var(--color-sky);
+  color: var(--color-ink);
+}
+
+.badge--score {
+  background: var(--color-sun);
+  color: var(--color-ink);
+}

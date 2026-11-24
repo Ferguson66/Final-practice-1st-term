@@ -1,0 +1,15 @@
+.spinner {
+  width: 44px;
+  height: 44px;
+  margin: 3rem auto;
+  border: 5px solid var(--color-cloud);
+  border-top-color: var(--color-meadow);
+  border-radius: 50%;
+  animation: spinner-rotate 0.9s linear infinite;
+}
+
+@keyframes spinner-rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}

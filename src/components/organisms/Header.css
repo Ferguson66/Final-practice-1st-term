@@ -1,0 +1,12 @@
+.header {
+  padding: 2.5rem 1.25rem 2.2rem;
+  background: var(--color-meadow-dark);
+}
+
+.header__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}

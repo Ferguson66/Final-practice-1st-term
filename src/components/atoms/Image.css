@@ -1,0 +1,24 @@
+.image {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-image);
+  background: var(--color-sky);
+}
+
+.image--poster {
+  aspect-ratio: 2 / 3;
+}
+
+.image--banner {
+  aspect-ratio: 21 / 9;
+  border-radius: var(--radius-card);
+}
+
+.image--placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-ink-soft);
+  font-size: 0.9rem;
+}

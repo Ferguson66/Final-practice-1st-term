@@ -1,0 +1,23 @@
+.title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-ink);
+}
+
+.title--level-1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.title--level-2 {
+  font-size: clamp(1.5rem, 3.5vw, 2.1rem);
+}
+
+.title--level-3 {
+  font-size: 1.1rem;
+}
+
+.title--light {
+  color: var(--color-cloud);
+}

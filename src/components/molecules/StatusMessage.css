@@ -1,0 +1,19 @@
+.status-message {
+  max-width: 480px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-left: 6px solid var(--color-error);
+  border-radius: var(--radius-card);
+  background: var(--color-cloud);
+}
+
+.status-message__title {
+  margin: 0 0 0.4rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-error);
+}
+
+.status-message__action {
+  margin-top: 1rem;
+}

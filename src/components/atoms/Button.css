@@ -1,0 +1,29 @@
+.button {
+  padding: 0.6rem 1.3rem;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.button--primary {
+  background: var(--color-meadow);
+  color: var(--color-cloud);
+}
+
+.button--primary:hover {
+  background: var(--color-meadow-dark);
+}
+
+.button--ghost {
+  background: transparent;
+  border-color: var(--color-ink);
+  color: var(--color-ink);
+}
+
+.button--ghost:hover {
+  background: var(--color-cloud);
+}

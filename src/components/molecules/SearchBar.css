@@ -1,0 +1,28 @@
+.search-bar {
+  display: block;
+  max-width: 420px;
+}
+
+.search-bar__label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.search-bar__input {
+  width: 100%;
+  padding: 0.7rem 1.1rem;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  background: var(--color-cloud);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 1rem;
+}
+
+.search-bar__input:focus {
+  border-color: var(--color-meadow);
+  outline: none;
+}

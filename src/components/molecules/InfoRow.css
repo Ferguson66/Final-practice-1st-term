@@ -1,0 +1,23 @@
+.info-row {
+  display: grid;
+  grid-template-columns: 9rem 1fr;
+  gap: 1rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--color-sky);
+}
+
+.info-row__label {
+  color: var(--color-ink-soft);
+  font-weight: 600;
+}
+
+.info-row__value {
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .info-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
